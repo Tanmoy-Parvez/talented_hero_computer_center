@@ -1,0 +1,18 @@
+.title{
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.description{
+    font-size: 18px;
+    color: rgb(105, 99, 99);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.fa-phone-alt{
+    font-size: 35px;
+}

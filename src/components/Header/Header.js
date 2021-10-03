@@ -6,11 +6,12 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                    <Nav className="me-auto">
+                    <Navbar.Brand href="#home">Galaxy Computer Training Center</Navbar.Brand>
+                    <Nav className="ms-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="#features">About us</Nav.Link>
+                        <Nav.Link href="#pricing">Services</Nav.Link>
+                        <Nav.Link href="#pricing">Contact us</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
