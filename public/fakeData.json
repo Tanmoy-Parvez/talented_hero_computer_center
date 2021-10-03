@@ -1,0 +1,65 @@
+[
+    {
+        "id": 101,
+        "title": "MS Office Word",
+        "subTitle": "Improve your skill",
+        "price": 50,
+        "img": "https://www.clipartmax.com/png/full/241-2414505_computer-icons-microsoft-powerpoint-microsoft-office-microsoft-word-icon-png.png"
+    },
+    {
+        "id": 102,
+        "title": "MS Office Excel",
+        "subTitle": "Improve your calculation skill",
+        "price": 60,
+        "img": "https://e7.pngegg.com/pngimages/1002/710/png-clipart-scalable-graphics-microsoft-excel-to-excel-icon-cdr-text.png"
+    },
+    {
+        "id": 103,
+        "title": "MS Office Power Point",
+        "subTitle": "Improve your presentation skill",
+        "price": 70,
+        "img": "https://www.pngrepo.com/png/58615/512/microsoft-powerpoint-logo.png"
+    },
+    {
+        "id": 104,
+        "title": "Adobe Photo Shop",
+        "subTitle": "Improve your picture editing skill",
+        "price": 90,
+        "img": "https://www.pngitem.com/pimgs/m/133-1335735_microsoft-excel-computer-icons-microsoft-office-transparent-background.png"
+    },
+    {
+        "id": 105,
+        "title": "Adobe Illustrator",
+        "subTitle": "Improve your designing skill",
+        "price": 95,
+        "img": "https://cdn.freebiesupply.com/logos/large/2x/adobe-illustrator-cs6-logo-black-and-white.png"
+    },
+    {
+        "id": 106,
+        "title": "Adobe After Effect",
+        "subTitle": "Improve your video editing skill",
+        "price": 100,
+        "img": "https://cdn.freebiesupply.com/logos/large/2x/after-effects-cc-logo-black-and-white.png"
+    },
+    {
+        "id": 107,
+        "title": "Web Design",
+        "subTitle": "Html5, CSS3, Bootstrap5 & jQuery",
+        "price": 140,
+        "img": "https://icon-library.com/images/website-icon-html/website-icon-html-14.jpg"
+    },
+    {
+        "id": 108,
+        "title": "JavaScript Programming",
+        "subTitle": "Improve your programming skill",
+        "price": 150,
+        "img": "https://iconape.com/wp-content/png_logo_vector/js.png"
+    },
+    {
+        "id": 109,
+        "title": "Mongo DB",
+        "subTitle": "Improve your database skill",
+        "price": 180,
+        "img": "https://icon-library.com/images/mongodb_1014590.png"
+    }
+]
