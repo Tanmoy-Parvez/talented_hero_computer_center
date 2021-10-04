@@ -8,7 +8,7 @@ const Services = () => {
         <div className="p-5 my-1">
             <div className="container text-center">
                 <h1>Explore Our Popular Services</h1>
-                <h4 className="text-primary">Popular Services We Provide</h4>
+                <h4 className="text-info">Popular Services We Provide</h4>
                 <div className="row my-5">
                     {
                         services.map(course => <div className="col-md-4 gy-5">
@@ -26,7 +26,7 @@ const Services = () => {
                     }
                 </div>
                 <Link to="/home">
-                    <button className="btn btn-primary py-2 px-4 fw-bold fs-5">Back to Home</button>
+                    <button className="btn btn-info py-2 px-4 fw-bold fs-5">Back to Home</button>
                 </Link>
             </div>
         </div>
