@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import "./Header.css"
+import "animate.css"
 
 const Header = () => {
     // navbar section
@@ -9,7 +10,7 @@ const Header = () => {
         <nav>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>
+                    <Navbar.Brand className="animate__animated animate__slideInDown">
                         <span className="text-info">Talented Hero</span> Computer Training Center
                     </Navbar.Brand>
                     <Nav className="ms-auto">
