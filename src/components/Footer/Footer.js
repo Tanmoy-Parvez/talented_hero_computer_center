@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -29,6 +28,8 @@ const Footer = () => {
                     <p className="mt-3 ms-5 ps-3">Get our latest news and updates right at your inbox </p>
                 </div>
             </div>
+            <hr />
+            <p className="text-center">&copy; Copyright 2021 || All rights reserved by <span className="text-info">Talented Hero</span> Computer Training Center </p>
         </div>
     );
 };
