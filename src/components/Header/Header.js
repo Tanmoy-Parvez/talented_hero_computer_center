@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
+    // navbar section
     return (
-        <>
+        <nav>
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand>
@@ -35,7 +36,7 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
-        </>
+        </nav>
     );
 };
 

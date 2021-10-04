@@ -1,5 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';// bootstrap style
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
