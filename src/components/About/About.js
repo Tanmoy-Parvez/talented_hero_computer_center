@@ -18,7 +18,7 @@ const About = () => {
                         </div>
                         <div className="col-md-8 pe-3">
                             <h3>Mr. Tanmoy Parvez</h3>
-                            <p>CEO & Founder of GCTC</p>
+                            <p>CEO & Founder of THCTC</p>
                         </div>
                     </div>
                 </div>
