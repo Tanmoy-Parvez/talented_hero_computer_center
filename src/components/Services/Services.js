@@ -8,7 +8,7 @@ const Services = () => {
         <div className="p-5 my-1">
             <div className="container text-center">
                 <h1>Explore Our Popular Services</h1>
-                <h5 className="text-primary">Popular Services We Provide</h5>
+                <h4 className="text-primary">Popular Services We Provide</h4>
                 <div className="row my-5">
                     {
                         services.map(course => <div className="col-md-4 gy-5">
