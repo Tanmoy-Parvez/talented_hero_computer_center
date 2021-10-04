@@ -8,11 +8,11 @@ const Banner = () => {
             <div className="row px-5">
                 <div className="col-md-6 p-5">
                     <h1 className="title fw-normal">Creating a better</h1>
-                    <h1 className="title text-warning fw-bold">IT solutions</h1>
+                    <h1 className="title text-primary fw-bold">IT solutions</h1>
                     <p className="description my-3">Computer training professionals instruct and help users acquire proficiency in a wide array of areas</p>
                     <div className="info">
-                        <button className="btn btn-warning px-5 py-2 fs-5 my-4 text-light fw-bold">About Us</button>
-                        <div className="ms-5 d-flex align-items-center text-warning">
+                        <button className="btn btn-primary px-5 py-2 fs-5 my-4 text-light fw-bold">About Us</button>
+                        <div className="ms-5 d-flex align-items-center text-primary">
                             <i class="fas fa-phone-alt mx-2"></i>
                             <h3>+0123 456 76</h3>
                         </div>

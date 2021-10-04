@@ -1,0 +1,10 @@
+.nav-items {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav-items:hover {
+    color: #4383e2;
+  }

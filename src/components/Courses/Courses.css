@@ -4,8 +4,15 @@
 }
 .card{
     height: 300px;
-    padding: 20px 0px;
+    padding: 10px 5px;
+    background-color: #212529;
+    cursor: pointer;
 }
+
+.card:hover{
+    background-color: #1266e6;
+}
+
 
 .card-logo{
     height: 100px;

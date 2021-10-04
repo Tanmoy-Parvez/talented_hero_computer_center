@@ -1,37 +1,34 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import useServices from '../../hooks/useServices';
 import "./Courses.css"
 
 const Courses = () => {
-    const [courses, setCourse] = useState([]);
-    useEffect(() => {
-        fetch('/fakeData.json')
-            .then(res => res.json())
-            .then(data => setCourse(data))
-    }, [])
+    const [services, setServices] = useServices([])
     return (
         <div className="course-container p-5 my-5">
             <div className="container text-center text-light">
-                <h5>Browse Categories {courses.length}</h5>
-                <h1>Popular topics to learn</h1>
+                <h5>Browse Categories</h5>
+                <h1>Popular Services We Provide</h1>
                 <div className="row my-5">
                     {
-                        courses.slice(0, courses.length - 5).map(course => <div className="col-md-3">
-                            <div className="card bg-dark">
-                                <div className="bg-light card-logo">
+                        services.slice(0, services.length - 5).map(course => <div className="col-md-3">
+                            <div className="card d-flex align-items-center">
+                                <div className="bg-light my-4 card-logo">
                                     <img src={course.img} alt="" />
                                 </div>
-                                {/* <div>
-                                    <h3>{course.title}</h3>
-                                    <h5>{course.subTitle}</h5>
-                                    <h5>Price: ${course.price}</h5>
-                                </div> */}
+                                <div>
+                                    <h4>{course.title}</h4>
+                                    <h6>{course.subTitle}</h6>
+                                    <h4>Price: ${course.price}</h4>
+                                </div>
                             </div>
                         </div>)
                     }
-
                 </div>
+                <Link to="/services">
+                    <button className="btn btn-dark py-2 px-4 fw-bold fs-5">Explore More</button>
+                </Link>
             </div>
         </div>
     );
