@@ -5,14 +5,14 @@ import useServices from '../../hooks/useServices';
 const Services = () => {
     const [services, setServices] = useServices([])
     return (
-        <div className="course-container p-5 my-1">
-            <div className="container text-center text-light">
+        <div className="p-5 my-1">
+            <div className="container text-center">
                 <h1>Explore Our Popular Services</h1>
                 <h5 className="text-primary">Popular Services We Provide</h5>
                 <div className="row my-5">
                     {
                         services.map(course => <div className="col-md-4 gy-5">
-                            <div className="card d-flex align-items-center">
+                            <div className="card d-flex align-items-center text-light">
                                 <div className="bg-light my-4 card-logo">
                                     <img src={course.img} alt="" />
                                 </div>

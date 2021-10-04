@@ -6,14 +6,14 @@ import "./Courses.css"
 const Courses = () => {
     const [services, setServices] = useServices([])
     return (
-        <div className="course-container p-5 my-5">
-            <div className="container text-center text-light">
+        <div className="p-5 my-5">
+            <div className="container text-center">
                 <h5>Browse Categories</h5>
                 <h1>Popular Services We Provide</h1>
                 <div className="row my-5">
                     {
                         services.slice(0, services.length - 5).map(course => <div className="col-md-3">
-                            <div className="card d-flex align-items-center">
+                            <div className="card d-flex align-items-center text-light">
                                 <div className="bg-light my-4 card-logo">
                                     <img src={course.img} alt="" />
                                 </div>
