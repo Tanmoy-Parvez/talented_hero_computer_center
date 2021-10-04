@@ -8,7 +8,9 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Galaxy Computer Training Center</Navbar.Brand>
+                    <Navbar.Brand>
+                        <span className="text-info">Talented Hero</span> Computer Training Center
+                    </Navbar.Brand>
                     <Nav className="ms-auto">
                         <Nav.Link>
                             <Link to="/home" className="nav-items">
